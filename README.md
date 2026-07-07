@@ -1,67 +1,47 @@
+<div align="center">
+
 # Algorytmy i Struktury Danych
+### Różne klasyczne algorytmy i struktury danych
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
-![Java](https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=java)
-![CS Concepts](https://img.shields.io/badge/CS-Algorithms-purple?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Educational-green?style=for-the-badge)
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,java,git" alt="Tech Stack" />
+  </a>
+</p>
 
-Repozytorium edukacyjne prezentujące różne klasyczne algorytmy i struktury danych w Pythonie i Javie.
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python)
+![Java](https://img.shields.io/badge/Java-17-orange?style=flat-square&logo=java)
+![CS Concepts](https://img.shields.io/badge/CS-Algorithms-purple?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Educational-green?style=flat-square)
 
----
+*Repozytorium edukacyjne prezentujące różne klasyczne algorytmy i struktury danych w Pythonie i Javie.*
 
-## Algorytmy
-
-### 1. Tablica z haszowaniem: Chaining vs Open Addressing
-
-- **Opis:** Implementacja tablic z haszowaniem w Pythonie z porównanie dwóch strategii rozwiązywania kolizji:
-  - Separate Chaining (łańcuchowanie)
-  - Open Addressing (adresowanie otwarte z linear probing)
-- **Język:** Python  
-- [Przejdź do kodu](./Dictionaries_with_hashing/DictionariesWithHashing.py)
+</div>
 
 ---
 
-### 2. Problem Plecakowy z kulami magicznymi
+## 🗂️ Przegląd Algorytmów i Struktur Danych
 
-- **Opis:** Rozwiązanie problemu plecakowego z dynamicznym programowaniem i modyfikatorami wartości dzięki magicznym kulom.  
-- **Język:** Java  
-- [Przejdź do kodu](./Discrete_Knapsack_Problem_Magic_Balls/problemPlecakowy.java)  
+Zbiór obejmuje **5 wyselekcjonowanych zagadnień**. Każdy z katalogów zawiera kod źródłowy implementujący konkretny problem algorytmiczny.
 
----
-
-### 3. Porównywanie tekstów (LCS)
-
-- **Opis:** Implementacja algorytmu Longest Common Subsequence do znajdowania różnic między dwoma tekstami.  
-- **Język:** Python  
-- [Przejdź do kodu](./Longest_Common_Subsequence/LongestCommonSubsequence.py)  
+| # | Tematyka | Nazwa Problemu | Język | Kod Źródłowy |
+| :---: | :--- | :--- | :---: | :---: |
+| **01** | `Tablice Mieszające` | Tablica z haszowaniem: Chaining vs Open Addressing | Python | [Zobacz kod](./Dictionaries_with_hashing/DictionariesWithHashing.py) |
+| **02** | `Progr. Dynamiczne` | Problem Plecakowy z kulami magicznymi | Java | [Zobacz kod](./Discrete_Knapsack_Problem_Magic_Balls/problemPlecakowy.java) |
+| **03** | `Progr. Dynamiczne` | Porównywanie tekstów (LCS) | Python | [Zobacz kod](./Longest_Common_Subsequence/LongestCommonSubsequence.py) |
+| **04** | `Wyszukiwanie Wzorców` | Dopasowywanie wzorców w tekście (m.in. KMP, Sunday) | Python | [Zobacz kod](./Pattern_Matching_Problem/PatternMatchingProblemSunday.py) |
+| **05** | `Struktury Danych` | Drzewo przedziałowe do czasu trafień celów | Java | [Zobacz kod](./Segment_Trees/drzewaPrzedzialowe.java) |
 
 ---
 
-### 4. Dopasowywanie wzorców w tekście
+## 👨‍💻 Autorzy
 
-- **Algorytmy:**
-  - **Naive Algorithm** – sprawdzanie wzorca w każdym możliwym przesunięciu.
-  - **Sunday Algorithm** – optymalizacja przesunięć wzorca w oparciu o znak następujący po oknie dopasowania.
-  - **Sunday Algorithm (Pair Shifts)** – rozszerzenie algorytmu Sunday na pary liter.
-  - **Knuth-Morris-Pratt (KMP)** – użycie tablicy prefiks-sufiks do efektywnego wyszukiwania wzorca.
-- **Język:** Python  
-- [Przejdź do kodu](./Pattern_Matching_Problem/PatternMatchingProblemSunday.py)  
-
----
-
-### 5. Drzewo przedziałowe do czasu trafień celów
-
-- **Opis:** Drzewo przedziałowe przechowujące liczbę trafień w celach i obliczający czas ostatniego trafienia. Pozwala na szybkie aktualizacje i zapytania w czasie logarytmicznym. 
-- **Język:** Java  
-- [Przejdź do kodu](./Segment_Trees/drzewaPrzedzialowe.java)  
-
----
-
-## Autorzy
-
-| Rola | Imię | GitHub |
-|:---:|:---:|:---:|
-| **Developer** | Łukasz Matecki | [GitHub Profile](https://github.com/LukaszMatecki) |
+| Rola | Imię i Nazwisko | Specjalizacja | Profil GitHub |
+| :---: | :--- | :--- | :---: |
+| **Developer** | Łukasz Matecki | Java & Android Developer | [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat-square&logo=github)](https://github.com/LukaszMatecki) |
 
 <br>
-<i>Projekt stworzony w celach edukacyjnych.</i>
+
+<div align="center">
+  <i>Projekt stworzony w celach edukacyjnych, w ramach rozwijania umiejętności z zakresu algorytmiki i struktur danych.</i>
+</div>
